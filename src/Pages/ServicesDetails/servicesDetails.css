@@ -1,0 +1,254 @@
+.servicesDetails {
+  width: 100%;
+  margin: 70px auto;
+}
+.servicesDetails .container .row .con-left .img {
+  height: 384px;
+  width: 100%;
+}
+.servicesDetails .container .row .con-left .img img {
+  width: 100%;
+  height: 100%;
+}
+.servicesDetails .container .row .con-left .info-1 h2,
+.servicesDetails .container .row .con-left .info h2 {
+  color: var(--main-c);
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 20px auto;
+}
+.servicesDetails .container .row .con-left .info-1 h2 {
+  font-size: 2.1em;
+}
+.servicesDetails .container .row .con-left .info-1 p,
+.servicesDetails .container .row .con-left .info p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+.servicesDetails .container .row .con-left .row .list ul li {
+  position: relative;
+  color: var(--main-c);
+  font-size: 1.3em;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.servicesDetails .container .row .con-left .row .list ul li:hover span {
+  background: var(--orange-c);
+}
+.servicesDetails .container .row .con-left .row .list ul li span {
+  position: absolute;
+  background: var(--btn-c);
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  top: 0;
+  left: -10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(-20%);
+  transition: all 0.5s ease 0s;
+  border-radius: 4px;
+  font-size: 0.9em;
+  padding: 15px;
+  font-weight: bold;
+}
+.servicesDetails .container .row .con-left .row .Progress {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.servicesDetails .container .row .con-left .row .Progress h4 {
+  color: var(--main-c);
+  font-weight: bold;
+  margin: 10px 0;
+}
+.servicesDetails .container .row .con-left .row .Progress p {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background: #00000026;
+}
+
+.servicesDetails .container .row .con-left .row .Progress p span {
+  height: 100%;
+  background: var(--btn-c);
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.servicesDetails .container .row .con-left .row .Progress p::before {
+  content: attr(data-percent);
+  position: absolute;
+  color: var(--btn-c);
+  transform: translate(-30%, -110%);
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.servicesDetails .container .row .con-left .row .Progress .pp-1::before {
+  left: 96%;
+}
+.servicesDetails .container .row .con-left .row .Progress .pp-1 span {
+  width: 96%;
+}
+.servicesDetails .container .row .con-left .row .Progress .pp-2::before {
+  left: 79%;
+}
+.servicesDetails .container .row .con-left .row .Progress .pp-2 span {
+  width: 79%;
+}
+.servicesDetails .container .row .con-left .row .Progress .pp-3::before {
+  left: 75%;
+}
+.servicesDetails .container .row .con-left .row .Progress .pp-3 span {
+  width: 75%;
+}
+.servicesDetails .container .row .con-left .row .Progress p::after {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 50%;
+  border: 3px solid var(--main-c);
+  top: -5px;
+  transform: translateX(-50%);
+}
+.servicesDetails .container .row .con-left .row .Progress .pp-1::after {
+  left: 96%;
+}
+.servicesDetails .container .row .con-left .row .Progress .pp-2::after {
+  left: 79%;
+  top: -50%;
+}
+.servicesDetails .container .row .con-left .row .Progress .pp-3::after {
+  left: 75%;
+}
+.servicesDetails .container .row .con-left .info h2 {
+  color: var(--main-c);
+}
+.servicesDetails
+  .container
+  .row
+  .con-left
+  .Accordion
+  .accordion
+  .accordion-body {
+  background: #eeeefa !important;
+}
+.servicesDetails .con-right {
+  position: relative;
+}
+.servicesDetails .con-right aside {
+  position: sticky;
+  top: 130px;
+}
+.servicesDetails .con-right .btns {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+  border-bottom: 3px solid #565acf;
+  box-shadow: 0 0px 5px 1px #dddef6;
+  border-radius: 6px 6px 4px 4px !important;
+}
+.servicesDetails .con-right .btns .btn {
+  padding: 25px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+}
+.servicesDetails .con-right .btns .btn svg {
+  padding: 10px;
+  background: #fff;
+  color: var(--btn-c);
+  border-radius: 5px;
+  font-size: 1.1em;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+}
+.servicesDetails .con-right .btns .btn:hover svg {
+  color: var(--orange-c) !important;
+}
+.servicesDetails .con-right .btns .btn:hover {
+  background: var(--orange-c) !important;
+  color: #fff;
+  letter-spacing: 1.1px;
+}
+
+.servicesDetails .con-right .Dawnload {
+  border-bottom: 3px solid #565acf;
+  box-shadow: 0 0px 5px 1px #dddef6;
+  border-radius: 6px 6px 4px 4px !important;
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+}
+.servicesDetails .con-right .Dawnload h2 {
+  color: var(--main-c);
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 10px auto;
+  position: relative;
+}
+.servicesDetails .con-right .Dawnload h2::before {
+  content: "";
+  background: #d9d9d9;
+  position: absolute;
+  bottom: -20%;
+  left: 0;
+  width: 100%;
+  height: 3px;
+}
+.servicesDetails .con-right .Dawnload h2::after {
+  content: "";
+  background: var(--btn-c);
+  position: absolute;
+  bottom: -20%;
+  left: 0;
+  width: 10%;
+  height: 3px;
+}
+.servicesDetails .con-right .Dawnload .btn {
+  width: 90%;
+  display: flex;
+  height: 79px;
+  margin: 20px 0;
+  transition: 0.3s all ease;
+  padding: 10px;
+  gap: 20px;
+}
+.servicesDetails .con-right .Dawnload .btn span {
+  height: 3em;
+  width: 3em;
+}
+.servicesDetails .con-right .Dawnload .btn span img {
+  width: 100%;
+  height: 100%;
+}
+.servicesDetails .con-right .Dawnload .btn .dawn h5 {
+  font-size: 1.3em;
+}
+.servicesDetails .con-right .Dawnload .btn .dawn p {
+  text-align: left;
+}
+.servicesDetails .con-right .Dawnload .btn:hover {
+  background: var(--orange-c);
+  color: #fff;
+}
+
+@media only screen and (max-width: 992px) {
+  .servicesDetails .con-right,
+  .servicesDetails .con-left {
+    margin: auto !important;
+  }
+}
+

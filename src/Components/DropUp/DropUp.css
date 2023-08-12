@@ -1,0 +1,35 @@
+.dropUp {
+  color: #fff;
+  background: var(--btn-c);
+  width: fit-content;
+  padding: 9px;
+  display: flex;
+  font-size: 1.3em;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid var(--btn-c);
+  border-radius: 50%;
+  font-weight: bold;
+  transition: 0.3s all ease;
+  position: fixed;
+  bottom: 10%;
+  left: 110%;
+  
+  z-index: 9999;
+}
+.dropUp:hover {
+  background: #fff;
+  color: var(--btn-c);
+}
+
+@keyframes dropUp {
+  0% {
+    display: none;
+    left: 110%;
+  }
+  100% {
+    display: flex;
+    left: 85%;
+  }
+}
+

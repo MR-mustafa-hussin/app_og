@@ -1,0 +1,129 @@
+.search-popUp {
+  width: 100%;
+  z-index: 99999;
+  background: rgba(255, 255, 255, 0.651);
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: search 1s 1 alternate;
+  -webkit-animation: search 1s 1 forwards;
+  border: 3px solid var(--btn-c);
+  border-top-color: transparent;
+}
+@keyframes search {
+  0% {
+    height: 0;
+    top: -100%;
+    left: -100%;
+  }
+  100% {
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+  }
+}
+
+.search-popUp input:focus::placeholder {
+    padding-left: 50%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: 1s all ease;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    -ms-transition: 1s all ease;
+    -o-transition: 1s all ease;
+}
+.search-popUp input::placeholder {
+  color: var(--main-c);
+}
+.search-popUp input {
+  font-weight: bold;
+
+  position: relative;
+  outline: none;
+  border: none;
+  border-bottom: 3px solid var(--btn-c);
+  background: transparent;
+
+  color: var(--main-c);
+
+  display: flex;
+  align-items: center;
+  padding-bottom: 7px;
+  animation: input 2s 1s 1 forwards;
+  -webkit-animation: input 2s 1s 1 forwards;
+}
+.search-popUp svg {
+  position: absolute;
+  background: var(--btn-c);
+  color: #fff;
+  font-size: 1.7em;
+  transition: 0.5s all ease;
+  cursor: pointer;
+}
+.search-popUp > svg:hover {
+  background: var(--orange-c);
+}
+.search-popUp > svg {
+  animation: icon 2s 1s 1 forwards;
+  -webkit-animation: icon 2s 1s 1 forwards;
+}
+@keyframes icon {
+  0% {
+    top: -100%;
+    left: -100%;
+    padding: 0px;
+    transform: rotate(0deg);
+  }
+  100% {
+    top: 45%;
+    left: 80%;
+    padding: 20px;
+    transform: rotate(720deg);
+  }
+}
+@keyframes input {
+  0% {
+    padding: 0px;
+    width: 0%;
+    transform: scale(0);
+    font-size: 0em;
+  }
+  100% {
+    padding: 30px;
+    width: 50%;
+    transform: scale(1.5);
+    font-size: 1.2em;
+  }
+}
+
+.search-popUp a svg {
+  position: absolute;
+  background: transparent;
+  color: var(--main-c);
+  border: 5px solid var(--btn-c);
+
+  animation: exit 2s 1s 1 forwards;
+  -webkit-animation: exit 2s 1s 1 forwards;
+}
+.search-popUp a svg:hover {
+  color: red;
+  border: 5px solid red;
+  padding: 10px;
+  font-size: 1.9em;
+}
+@keyframes exit {
+  0% {
+    top: 120%;
+    right: 120%;
+    padding: 0px;
+    border-radius: 0%;
+  }
+  100% {
+    top: 10%;
+    right: 10%;
+    padding: 5px;
+    border-radius: 50%;
+  }
+}

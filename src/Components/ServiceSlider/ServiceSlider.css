@@ -1,0 +1,134 @@
+
+.ServiceSlider {
+  position: relative;
+}
+.ServiceSlider .container .text-left {
+  padding: 3em;
+  width: 38% !important;
+  position: relative;
+}
+.ServiceSlider .text-left .blueCircleLines {
+  position: absolute;
+  top: -4%;
+  left: 0%;
+  width: 4em;
+  z-index: -1;
+  opacity: 0.67;
+  animation: rotatePlus 1.1s linear infinite;
+}
+.ServiceSlider .container .text-left h5 {
+  background-image: url("../../Assets/service\ Title.png");
+  font-weight: 700;
+  padding: 3px 15px;
+  margin-bottom: 15px;
+  width: fit-content;
+  color: var(--orange-c);
+}
+.ServiceSlider .container .text-left h2 {
+  font-size: 2.8em;
+  color: var(--main-c);
+  font-weight: bold;
+}
+.ServiceSlider .container .text-left p {
+  font-size: 1.1em;
+  padding-top: 5px;
+  font-weight: 500;
+}
+.ServiceSlider .container .text-left .btn-serve {
+  box-shadow: 0 5px 20px 0 rgba(241, 119, 50, 0.3) !important;
+  background-color: var(--orange-c);
+  color: #fff;
+  padding: 10px 20px;
+  margin: 20px 9px;
+  font-weight: 700;
+  font-size: 1.1em;
+  letter-spacing: 1.2px;
+}
+.ServiceSlider .container .text-left .btn-serve:hover {
+    opacity: 0.6;
+}
+/* ======================================== */
+.ServiceSlider .container .slider {
+    width: 61% !important;
+    position: relative !important;overflow: hidden;
+}
+.ServiceSlider .squareLines {
+  position: absolute;
+    left: 40%;
+    top: -9%;
+    width: 5em;
+  animation: Mover 1.1s linear infinite alternate !important;
+
+}
+.ServiceSlider .serviceLine {
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  width: 8em;
+  animation: lineMover 1.1s linear infinite alternate !important;
+
+}
+
+.ServiceSlider .container .slider .bgg {
+    background: var(--btn-c);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 30%;
+    top: 0;
+    border-radius: 20px;
+}
+
+.ServiceSlider .container .slider .carousel {
+    overflow: hidden !important;
+    cursor: grab !important;
+    width: 110% !important;
+    margin: 20px auto;
+  }
+  .ServiceSlider .container .slider .carousel .inner-carousel {
+    display: flex !important;
+  }
+  .ServiceSlider .container .slider .carousel .inner-carousel .item {
+      padding: 40px 20px !important;
+    }
+    .ServiceSlider .container .slider .carousel .inner-carousel .item  .card-container {
+        height: 100% !important;
+        width: 273px;
+    }
+  .ServiceSlider .container .slider .carousel .inner-carousel .item img {
+    height: 100% !important;
+    border-radius: 2rem !important;
+    pointer-events: none !important;
+  }
+  @media (max-width: 992px){
+    .ServiceSlider .container .text-left {
+        padding: 5em;
+        width: 100% !important;
+        text-align: center;
+    }
+    .ServiceSlider .container .text-left h5 {
+        margin: 20px auto;
+    }
+    .ServiceSlider .container .slider {
+        width: 100% !important;
+    }
+    .ServiceSlider .container .slider .carousel {
+        width: 100% !important;
+    }
+    .container {
+        max-width: 100% !important;
+    }
+    .ServiceSlider .text-left .blueCircleLines {
+      left: 40%;
+  }
+  .ServiceSlider .squareLines {
+    left: 5%;
+    top: 40%;  
+  }
+  .ServiceSlider .serviceLine {
+    left: 5%;
+    bottom: 0%;
+    z-index: -1;  
+  }
+  }
+    

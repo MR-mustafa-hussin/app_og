@@ -1,0 +1,29 @@
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    background: var(--btn-c);
+    color: #fff;
+    font-weight: 600;
+}
+.accordion-button {
+    margin: 3px 0;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color:var(--btn-c) !important;
+    outline: 0;
+    box-shadow: var(--btn-c) !important;
+}
+.accordion-button:not(.collapsed) {
+    background: var(--orange-c) !important;
+    border-color:var(--orange-c) !important;
+    box-shadow: var(--orange-c) !important;
+
+    color: #fff !important;
+
+}
+.faqs {
+    width: 70%;
+    margin: 0 auto;
+}
+.faqs .acc-faq {
+margin: 70px auto;
+}

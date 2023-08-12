@@ -1,0 +1,58 @@
+.error-404 {
+    margin: 20px auto;
+}
+.error-404 h2 {
+  display: flex;
+  width: 100%;
+  font-size: 7em;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--main-c);
+  gap: 10px;
+}
+.error-404 h2 span {
+  font-size: 1.4em;
+}
+.error-404 h2 span img {
+  width: 0.7em;
+  height: 62%;
+  margin-bottom: 25px;
+}
+.error-404 h3 {
+    color: var(--main-c);
+    font-weight: bold;
+    font-size: 2.1em;
+    width: 43%;
+    margin: 0px auto 20px;
+    text-align: center;
+}
+.error-404 .link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.error-404 p {
+    width: 37%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.error-404 .back {
+  background: var(--btn-c);
+  color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 10px;
+  transition: 0.3s all ease;
+}
+.error-404 .back:hover {
+  background: var(--main-c);
+  letter-spacing: 1.6px;
+  font-weight: bold;
+}

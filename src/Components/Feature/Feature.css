@@ -1,0 +1,64 @@
+/*================ 
+start Feature
+================= */
+.feature {
+    position: relative;
+    margin: 50px auto;
+    width: 100%;
+    background-color: rgba(86, 90, 207, 0.1);
+    padding: 80px 0;
+  }
+  .feature .container .row {
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .feature .container .cart {
+    background: #fff;
+    padding: 25px 15px;
+    width: 255px;
+    border-radius: 20px;
+    transition: background 0.5s;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .feature .container .cart:hover,
+  .feature .container .cart:hover h2,
+  .feature .container .cart:hover h5 {
+    background: var(--main-c);
+    color: #fff;
+  }
+  .feature .container .cart:after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #565acf;
+    z-index: -1;
+  }
+  .feature .container .cart h2 {
+    color: var(--orange-c);
+    font-size: 4em;
+    border-radius: 20px;
+    transition: color 0.5s;
+    font-weight: bold;
+  }
+  .feature .container .cart h5 {
+    color: var(--main-c);
+    border-radius: 20px;
+    transition: color 0.5s;
+    font-weight: bold;
+    font-size: 1.4em;
+  }
+  .feature .container .cart p {
+    border-radius: 20px;
+    transition: color 0.5s;
+  }
+  /*================ 
+  End Feature
+  ================= */
+  

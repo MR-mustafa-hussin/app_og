@@ -1,0 +1,165 @@
+/*================ 
+start Our Doctor
+================= */
+.our-doctor {
+  position: relative;
+}
+.our-doctor .card-Doctor {
+  border: 2px solid rgba(86, 90, 207, 0.2);
+  border-radius: 20px;
+  padding: 35px 40px 50px;
+  position: relative;
+  transition: 0.3s all ease;
+  width: 340px;
+  background: #fff;
+}
+.our-doctor .card-Doctor:hover {
+  box-shadow: 0 10px 50px 0 rgb(0 2 72 / 10%);
+  z-index: 9;
+  border-color: #fff;
+}
+
+.our-doctor .card-Doctor .imgs {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s all ease;
+  justify-content: center;
+}
+.our-doctor .card-Doctor .imgs-1 {
+  position: absolute;
+  background-image: url("../../Assets/our\ doctor\ blue.png");
+  top: 0;
+  left: 12.5%;
+  width: 100%;
+  height: 100%;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  transition: 0.3s all ease;
+  transform: rotate(-1deg);
+  opacity: 0.2;
+}
+.our-doctor .card-Doctor .imgs-2 {
+  transition: 0.3s all ease;
+  position: absolute;
+  background-image: url("../../Assets/our\ doctor\ orange.png");
+  top: 7%;
+  left: 22%;
+  width: 90%;
+  height: 90%;
+  background-size: 62%;
+  background-repeat: no-repeat;
+  transform: rotate(-1deg);
+  opacity: 0.2;
+}
+.our-doctor .card-Doctor .imgs img {
+  -webkit-mask-image: url("../../Assets/mask\ img.png");
+  mask-image: url("../../Assets/mask\ img.png");
+  -webkit-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  position: absolute;
+  top: 20%;
+  width: 40%;
+}
+.our-doctor .card-Doctor:hover .imgs-1,
+.our-doctor .card-Doctor:hover .imgs-2 {
+  opacity: 1;
+}
+
+
+
+.our-doctor .card-Doctor .text {
+  width: 100%;
+  text-align: center;
+  margin: 40px auto 20px auto;
+}
+.our-doctor .card-Doctor .text h3 {
+  width: 100%;
+  color: var(--main-c);
+  margin: 20px auto;
+  font-weight: bold;
+}
+.our-doctor .card-Doctor .text h5 {
+  color: var(--orange-c);
+  width: 100%;
+  margin: 0px auto;
+  font-weight: bold;
+}
+.our-doctor .card-Doctor .social {
+  display: flex;
+  width: 50%;
+  margin: 20px auto 0 auto;
+  justify-content: space-around;
+}
+.our-doctor .card-Doctor .social img {
+  transition: 0.3s all ease;
+}
+.our-doctor .card-Doctor .social img:hover {
+  transform: scale(1.5) rotate(360deg);
+  cursor: pointer;
+}
+/*================ 
+  End Our Doctor
+  ================= */
+@media only screen and (max-width: 992px) {
+  .our-doctor .Triangle {
+    top: 8%;
+  }
+  .our-doctor .blueLine {
+    right: 10%;
+  }
+  .our-doctor .orangeSquare {
+    top: 35%;
+    left: -1%;
+  }
+  .our-doctor .blueCircle {
+    top: 30%;
+    right: -1%;
+  }
+  .our-doctor .blueCircleLines {
+    bottom: 0;
+  }
+}
+@media only screen and (max-width: 722px) {
+  .our-doctor .blueLine {
+    right: 10%;
+  }
+  .our-doctor .orangeSquare {
+    top: 35%;
+    left: 3%;
+  }
+  .our-doctor .blueCircle {
+    top: 30%;
+    right: 3%;
+  }
+  .our-doctor .blueCircleLines {
+    bottom: 3%;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .our-doctor .Triangle {
+    top: 2%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .our-doctor .orangeSquare {
+    top: 40.2%;
+    left: 3%;
+    animation: lineMover 1.1s linear infinite alternate !important;
+  }
+  .our-doctor .blueCircle {
+    top: 40.5%;
+    right: 3%;
+  }
+  .our-doctor .blueCircleLines {
+    bottom: 3%;
+    left: 40%;
+  }
+}

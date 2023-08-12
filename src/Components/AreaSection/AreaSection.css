@@ -1,0 +1,195 @@
+.AreaSection{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.AreaSection .card3,
+.AreaSection .card2,
+.AreaSection .card1 {
+    position: relative;
+    box-shadow: 0 10px 60px 0 rgb(31 34 120 / 10%);
+    padding: 40px 30px;
+    border-radius: 20px;
+    background-color: #fff;
+    transition: all .5s;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.AreaSection .card3 h2,
+.AreaSection .card2 h2,
+.AreaSection .card1 h2 {
+    transition: all .5s;
+    z-index: 9;
+    font-size: 80px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    line-height: 80px;
+    text-shadow: 0 10px 0 #ffe3d3;
+    color: transparent;
+    -webkit-text-stroke: 2px var(--orange-c);
+    -moz-text-stroke: 2px var(--orange-c);
+    transition: all .5s;
+    -o-text-stroke: 2px var(--orange-c);
+}
+.AreaSection .card3 h4,
+.AreaSection .card2 h4,
+.AreaSection .card1 h4 {
+    font-size: 20px;
+    font-weight: 700;
+    transition: all .5s;
+    color: var(--orange-c);
+}
+.AreaSection .card3 p,
+.AreaSection .card2 p,
+.AreaSection .card1 p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    transition: all .5s;
+    margin-bottom: 30px;
+}
+.AreaSection .card3 a,
+.AreaSection .card2 a,
+.AreaSection .card1 a {
+    font-weight: 600;
+    background-color: #e1e2f6;
+    color: var(--btn-c);
+    border: 2px solid #e1e2f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: fit-content;
+    transition: all .5s;
+    position: relative;
+}
+.AreaSection .card3 a svg,
+.AreaSection .card2 a svg,
+.AreaSection .card1 a svg {
+    color: var(--btn-c);
+    background: #fff;
+    border-radius: inherit;
+    display: inline-block;
+    margin: 0 0 0 15px;
+    font-size: 13px;
+    transition: all .5s;
+    padding: 10px;
+}
+.AreaSection .card2 {
+    background: var(--orange-c);
+    color: #fff;
+    margin-top: 0;
+}
+.AreaSection .card2 h2 {
+    text-shadow: 0 10px 0  var(--orange-c);
+    -webkit-text-stroke: 2px #fff;
+}
+.AreaSection .card2 h4{
+    color: inherit;
+}
+
+.AreaSection .card2 a {
+    background-color: #fff;
+    border-color: #fff;
+    color: var(--orange-c);
+}
+.AreaSection .card2 a svg {
+    background-color:var(--orange-c);
+    color: #fff;
+}
+.AreaSection .card3:hover h2,
+.AreaSection .card1:hover h2 {
+    text-shadow: 0 10px 0  var(--orange-c);
+    -webkit-text-stroke: 2px #fff;
+}
+.AreaSection .card3:hover p,
+.AreaSection .card1:hover p,
+.AreaSection .card3:hover h4,
+.AreaSection .card1:hover h4 {
+   color: #fff;
+}
+
+.AreaSection .card3:hover a,
+.AreaSection .card1:hover a {
+   color: var(--orange-c);
+   background: #fff;
+}
+.AreaSection .card3:hover a svg,
+.AreaSection .card1:hover a svg {
+   background: var(--orange-c);
+   color: #fff;
+}
+.card3:after,
+.card1:after {
+    content: "";
+    height: 0;
+    width: 100%;
+    background-color:  var(--orange-c);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    transition: all .5s;
+    transform-origin: bottom;
+    -moz-transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    -webkit-transform-origin: bottom;
+    -o-transform-origin: bottom;
+}
+.AreaSection .card3:hover::after,
+.AreaSection .card1:hover::after {
+   background: var(--orange-c);
+   color: #fff;
+   height: 100%;
+   top: 0;
+    transform-origin: top;
+    -moz-transform-origin: top;
+    -ms-transform-origin: top;
+    -webkit-transform-origin: top;
+    -o-transform-origin: top;
+    
+}
+.orangeCircle {
+    position: absolute;
+    left: -10%;
+    bottom: 12%;
+  animation: Mover 1.1s linear infinite alternate !important;
+}
+.plus {
+    position: absolute;
+    right: -10%;
+    top: 50%;
+  animation: Mover 1.1s linear infinite alternate !important;
+}
+.blueCircle {
+    position: absolute;
+    right: 20%;
+    bottom: -5%;
+  animation: lineMover 1.1s linear infinite alternate !important;
+} 
+/* start media query */
+@media only screen and (max-width: 992px) {
+    .AreaSection .card2 {
+        margin-top: 30px;
+    }
+    .AreaSection .card3 {
+        margin: 30px auto;
+    }
+    .AreaSection .card3-container {
+margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .blueCircle {
+        position: absolute;
+        right: 20%;
+        bottom: -5%;
+        animation: lineMover 1.1s linear infinite alternate !important;
+    }
+}
+/* End media query */
+

@@ -1,0 +1,29 @@
+.nav-img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 85vh;
+  background-image: url(./Assets/land1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -2;
+}
+.nav-img2 {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+  left: 0;
+  height: 50vh;
+  background-image: url(./Assets/land2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: -1;
+}
+@media only screen and (max-width: 992px) {
+  .nav-img2 {
+    top: 55%;
+    height: 20vh;
+  }
+
+}

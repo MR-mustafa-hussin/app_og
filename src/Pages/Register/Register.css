@@ -1,0 +1,114 @@
+.Register-N {
+    width: 35%;
+    background: #fff;
+    margin: 200px auto;
+    border-radius: 40px;
+    box-shadow: 0px 0px 6px 0px var(--main-c);
+  }
+  .Register-N .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .Register-N .container .imgs {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .Register-N .container .imgs img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .Register-N .container form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .Register-N .container form input:hover {
+  
+    border: 1px solid var(--btn-c);
+  }
+  .Register-N .container form input {
+    display: block;
+    width: 90%;
+    border: 1px solid #cccdf1;
+    padding: 10px;
+    outline: none;
+    border-radius: 7px;
+    margin: 10px auto;
+    transition: 0.3s all ease;
+    transition: 0.3s all ease;
+  }
+  .Register-N .container form input:focus {
+    border: 1px solid var(--btn-c);
+  }
+  
+  
+  .Register-N .container form .submit {
+    display: block;
+    width: 90%;
+    border-radius: 7px;
+    transition: 0.3s all ease;
+    margin: 20px auto; padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    background: var(--btn-c);
+  }.Register-N .container form .submit:hover {
+      background: var(--main-c);
+  }
+  .Register-N .container form a {
+    transition: 0.3s all ease;
+  
+  }
+  .Register-N .container form a:hover {
+      letter-spacing: 1.6px;
+      color: --btn-c;
+      font-weight: bold;
+  }
+  .Register-N .container form .link-forget {
+    display: block;
+    width: 100%;
+    text-align: center;
+  color: var(--main-c);
+  }
+  .Register-N .container form .link-account {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .Register-N .container form .register {
+      display: block;
+      margin: 20px auto;
+      background: var(--orange-c);
+      border-radius: 7px;
+      border: 0;
+      width: 90%;
+      transition: 0.3s all ease;
+      padding: 10px 20px;
+      text-align: center;
+      color: #fff;
+      font-weight: bold;
+      letter-spacing: 1.6px;
+      font-size: 15px;
+  }
+    .Register-N .container form .register:hover {
+  opacity: 0.8;
+  }
+  @media only screen and (max-width: 992px) {
+    .Register-N {
+      width: 50%;
+  }
+  }
+  @media only screen and (max-width: 767px) {}
+  @media only screen and (max-width: 400px) {
+    .Register-N {
+      width: 90%;
+      margin: 50px auto;
+  }
+  } 

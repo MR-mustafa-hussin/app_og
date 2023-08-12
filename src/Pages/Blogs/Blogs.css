@@ -1,0 +1,41 @@
+.blogs {
+  padding: 100px 0;
+}
+.blogs .container .row .cardo .card-img img {
+  height: 12.6em;
+}
+.blogs .paginat {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  width: 70%;
+  margin: auto;
+}
+.blogs .paginat .page-item .page-item,
+.blogs .paginat .page-item.active .page-link {
+  padding: 10px 15px;
+  font-weight: bold;
+  background: var(--btn-c);
+  border: var(--main-c);
+  color: #fff;
+}
+.blogs .paginat .page-item .page-item,
+.blogs .paginat .page-item .page-link {
+  margin-left: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: var(--btn-c);
+}
+.blogs .paginat .page-item .page-item:hover,
+.blogs .paginat .page-item .page-link:hover {
+  background: #565acf;
+  color: #fff;
+  border: var(--main-c);
+  font-weight: bold;
+  letter-spacing: 1.6px;
+}

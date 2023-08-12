@@ -1,0 +1,85 @@
+.card {
+  width: 300px;
+  overflow: hidden;
+  margin: 20px auto;
+  transition: 0.3s all ease;
+  border: 1px solid #dddef6 !important;
+  padding: 15px;
+  border-radius: 10px !important;
+}
+.card:hover {
+  box-shadow: 0 10px 30px 0 rgb(31 34 120 / 10%);
+  border: 2px solid #fff !important;
+}
+
+.card .card-img {
+  width: 100%;
+}
+.card .card-img img {
+  width: 100%;
+}
+.card .card-text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.card .card-text .card-text-top {
+  display: flex;
+  align-items: center;
+  color: var(--orange-c);
+}
+.card .card-text .card-text-top .img-name-small {
+  padding: 10px 0;
+  width: 50%;
+}
+.card .card-text .img-name-small a {
+  display: flex;
+  justify-content: space-around;
+  color: var(--orange-c);
+}
+.card .card-text .card-text-top .img-name-small a img {
+  width: 20%;
+  border-radius: 50%;
+}
+.card .card-text .card-text-top .date {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.card .card-text .card-text-top .date svg {
+}
+.card .card-text .card-text-title-con {
+  line-height: 26px;
+}
+.card .card-text .card-text-title {
+  font-size: 0.7em !important;
+  color: var(--main-c);
+  font-weight: bold;
+}
+.card .card-text .read-more-btn {
+  width: fit-content;
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid var(--btn-c);
+  color: var(--btn-c);
+  transition: 0.3s all ease;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.card .card-text .read-more-btn span svg {
+  border-radius: 7px;
+  background: var(--btn-c);
+  color: #fff;
+  font-weight: bold;
+  padding: 6px;
+  width: 15px;
+  height: 15px;
+  margin: 5px 0 0 0;
+}
+.card .card-text .read-more-btn:hover {
+  background: var(--btn-c);
+  color: #fff;
+}

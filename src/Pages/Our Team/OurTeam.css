@@ -1,0 +1,87 @@
+.our-team-cards {
+  width: 100%;
+  margin: 70px auto;
+  position: relative;
+}
+.our-team-cards .container .row .our-team-card-resp {
+  display: flex;
+  justify-content: center;
+}
+.our-team-cards .container .row .our-team-card-resp .card-Doctor {
+  margin: 30px 0;
+}
+.our-team-cards .orange-Square {
+  width: 5em;
+  position: absolute;
+  left: 10%;
+  top: 47.2%;
+  animation: Mover 3.6s linear infinite alternate !important;
+  z-index: -1;
+}
+.our-team-cards .T-riangle {
+  width: 5em;
+  position: absolute;
+  left: 8%;
+  top: -6%;
+  animation: Mover 3.6s linear infinite alternate !important;
+  z-index: -1;
+}
+.our-team-cards .blue-Line {
+  width: 5em;
+  position: absolute;
+  right: 14%;
+  top: -4%;
+  animation: lineMover 3.6s linear infinite alternate !important;
+  z-index: -1;
+}
+.our-team-cards .blue-Circle-Lines {
+  width: 5em;
+  position: absolute;
+  left: 48%;
+  bottom: -6%;
+  animation: rotatePlus 3.6s linear infinite;
+  z-index: -1;
+}
+.our-team-cards .blue-Circle {
+  width: 5em;
+  position: absolute;
+  right: 10%;
+  top: 46.5%;
+  animation: lineMover 3.6s linear infinite alternate !important;
+  z-index: -1;
+}
+@media only screen and (max-width: 992px) {
+  .our-team-cards .orange-Square {
+    top: 31.2%;
+  }
+  .our-team-cards .blue-Circle {
+    top: 31.1%;
+  }
+  .our-team-cards .blue-Circle-Lines {
+    bottom: -4%;
+  }
+  .our-team-cards .T-riangle {
+    top: -3%;
+  }
+}
+@media only screen and (max-width: 767px) {
+    .our-team-cards .orange-Square {
+        top: 32.2%;
+        left: 20%;
+      }
+      .our-team-cards .blue-Circle {
+        top: 32.2%;
+        right: 20%;
+      }
+      .our-team-cards .blue-Circle-Lines {
+        bottom: -2%;
+      }
+      .our-team-cards .T-riangle {
+        top: -1%;
+      }
+      .our-team-cards .blue-Line {
+        right: 20%;
+        top: -1%;
+    }
+}
+

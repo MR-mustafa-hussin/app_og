@@ -1,0 +1,56 @@
+.card-container {
+  background-image: url("../../Assets/sevice\ background\ card.png");
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* width: 280px; */
+  background-position: 0;
+  background-repeat: repeat-y;
+  overflow: hidden;
+  background-size: contain;
+  box-shadow: 0px 0px 9px 0px #333;
+  border-radius: 20px;
+  transition:0.3s all ease;
+  background-color: #f9f9f9;
+}
+.card-container:hover .btn-view {
+background: var(--btn-c);
+color: #fff;
+letter-spacing: 1.6px;
+}
+.card-container:hover .icon svg,
+.card-container .icon:hover svg,
+.card-container .icon svg:hover {
+    animation: iconHover .3s alternate 1 linear;
+}
+.card-container .icon {
+  text-align: center;
+  font-size: 2.1em;
+  color: var(--main-c);
+  width: fit-content;
+  padding: 30px 40px;
+  background: #fff;
+  margin-left: 15px;
+  margin: 0 0 20px 15px;
+  transition:0.3s all ease;
+}
+.card-container .icon svg {
+    transition:0.3s all ease;
+}
+.card-container h2 {
+  color: var(--main-c);
+  font-weight: bold;
+  font-size: 2.2em;
+}
+.card-container p {
+  font-size: 1.1em;
+}
+.card-container .btn-view {
+  background: #e1e2f6;
+  color: var(--btn-c);
+  width: fit-content;
+  padding: 10px 20px;
+  margin: 20px auto;
+  font-weight: bold;
+  transition:0.3s all ease;
+}

@@ -1,0 +1,257 @@
+.FormBooking {
+  background: #f5f5fc;
+  padding: 50px;
+  border-radius: 47px;
+  position: relative;
+  margin: 100px auto;
+  overflow: hidden;
+}
+.FormBooking .blueLine {
+  position: absolute;
+  right: 5%;
+  top: 0;
+  width: 10%;
+  animation: lineMover 1s alternate infinite linear;
+}
+
+.FormBooking form {
+  max-width: 100% !important;
+  padding: 30px 10px !important;
+  height: 100% !important;
+  margin: 0 auto !important;
+  background: #fff !important;
+  border-radius: 20px !important;
+}
+.FormBooking .after-form {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.FormBooking .after-form::after {
+  content: "";
+  position: absolute;
+  top: -3%;
+  border-radius: 20px !important;
+  left: -4%;
+  width: 100%;
+  height: 101%;
+  border: 1px solid var(--main-c);
+  z-index: -1;
+}
+
+.FormBooking form h2 {
+  width: 90%;
+  font-size: 1em;
+  text-align: center;
+  color: var(--main-c);
+  font-weight: bold;
+  margin: 0 auto;
+}
+.FormBooking .form-book {
+  position: relative;
+}
+.FormBooking .form-book .triangle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10%;
+  animation: Mover 1s alternate infinite linear;
+}
+
+.FormBooking .form-book .con-f {
+  width: 90%;
+  margin: 20px auto;
+}
+.FormBooking .form-book .con-f select:focus {
+  border: 1px solid var(--btn-c);
+  outline: var(--btn-c);
+}
+.FormBooking .form-book .con-f select {
+  border: 1px solid #cccdf1;
+  font-size: 1em;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+  color: var(--main-c);
+}
+.FormBooking .form-book .con-f select option {
+  width: 100%;
+  color: var(--main-c);
+  font-weight: 700;
+  font-size: 17px;
+}
+.FormBooking .form-book .con-f input[type="date"],
+.FormBooking .form-book .con-f input::placeholder {
+  color: var(--main-c);
+  font-size: 1em;
+}
+.FormBooking .form-book .con-f input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #cccdf1;
+}
+
+.FormBooking .form-book .con-date {
+  margin: -20px auto;
+}
+
+.FormBooking .form-book .con-f a {
+  color: #fff;
+  width: 70%;
+  background: var(--orange-c);
+  padding: 12px 20px;
+  margin: 5px auto;
+  text-align: center;
+  display: flex;
+  font-size: 1.1em;
+  justify-self: center;
+  justify-content: center;
+}
+.FormBooking .form-book .con-f a:hover {
+  opacity: 0.6;
+}
+.FormBooking .orangeLine {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  width: 10%;
+  z-index: 1;
+  animation: lineMover 1s alternate infinite linear;
+}
+
+/* ============= */
+.FormBooking .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.FormBooking .img-animation {
+  position: relative;
+}
+.FormBooking .img-animation .container-images {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  left: 0px;
+  top: 0;
+  bottom: 0px;
+}
+
+.FormBooking .img-animation .container-images .mobile {
+  height: 100%;
+  left: 0px;
+  width: 90%;
+  top: 0px;
+}
+.FormBooking .img-animation .container-images .Women {
+  width: 40%;
+  height: 85%;
+  position: absolute;
+  right: 0;
+  bottom: 17px;
+  transform: translateX(-22%);
+  animation: 5s womanMover infinite alternate;
+}
+
+.FormBooking .img-animation .container-images .imgs img {
+  position: absolute;
+
+  width: 12%;
+}
+.FormBooking .img-animation .container-images .imgs .message {
+  right: 21%;
+  top: 0%;
+  animation: MoverMessage 2s 0.5s alternate infinite;
+}
+
+.FormBooking .img-animation .container-images .imgs .True {
+  left: 0%;
+  top: 20%;
+  animation: MoverMessage 2s 0.6s alternate infinite;
+  width: 10%;
+}
+.FormBooking .img-animation .container-images .imgs .location {
+  left: 12%;
+  animation: MoverMessage 2s 0.8s alternate infinite;
+  top: 45%;
+}
+.FormBooking .img-animation .container-images .imgs .setting {
+  right: 40%;
+  animation: MoverMessage 2s 0.9s alternate infinite;
+  top: 60%;
+}
+.FormBooking .orangeCircle-2 {
+  position: absolute;
+  right: 3%;
+  bottom: -2%;
+  width: 5em;
+  /* z-index: 1; */
+  animation: Mover 1s alternate infinite linear;
+}
+.FormBooking .form-book .con-f input[type="date"], .FormBooking .form-book .con-f input::placeholder {
+  margin: 20px auto;
+}
+/* Start Animation */
+@keyframes womanMover {
+  0% {
+    transform: translateX(-29%);
+  }
+  50% {
+    transform: translateX(-3%);
+  }
+  100% {
+    transform: translateX(-29%);
+  }
+}
+@keyframes MoverMessage {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+/* End  Animation */
+
+/* Start Media Query */
+@media only screen and (max-width: 992px) {
+  .FormBooking .form-book .con-f a {
+    width: 100%;
+    transform: translate(0);
+  }
+  .FormBooking .img-animation .container-images .imgs .True {
+    left: 0%;
+    top: 20%;
+    animation: MoverMessage 2s 0.6s alternate infinite;
+    width: 2em;
+  }
+  .FormBooking .orangeLine {
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .FormBooking .img-animation {
+    position: relative;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .FormBooking {
+    padding: 30px;
+  }
+  .FormBooking .after-form {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .FormBooking .form-book {
+    width: 100%;
+    margin: 20px auto;
+  }
+  .FormBooking form h2 {
+    font-size: 6vw;
+  }
+}
+@media only screen and (max-width: 500px) {
+}
+
+/* End Media Query */
