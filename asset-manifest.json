@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/app_og/static/css/main.8995c689.css",
+    "main.js": "/app_og/static/js/main.76b8e9fe.js",
+    "static/media/landing Page.png": "/app_og/static/media/landing Page.7c2bc96d67d3eba1d64a.png",
+    "static/media/latest News  2.jpg": "/app_og/static/media/latest News  2.67db6c474a828bd7a0cd.jpg",
+    "static/media/banner.jpg": "/app_og/static/media/banner.815eb17ad747be75950d.jpg",
+    "static/media/footer.background.jpg": "/app_og/static/media/footer.background.d025f458ac691ab6e8fa.jpg",
+    "static/media/latest News  3.jpg": "/app_og/static/media/latest News  3.89b8315141d75bd31ced.jpg",
+    "static/media/latest News  4.jpg": "/app_og/static/media/latest News  4.28ea761e88293ca4d821.jpg",
+    "static/media/latest News 1.jpg": "/app_og/static/media/latest News 1.a3848a1189e2114e1b47.jpg",
+    "static/media/testimonial doctor 8.jpg": "/app_og/static/media/testimonial doctor 8.c1733b79898885a595bd.jpg",
+    "static/media/latest News 5.jpg": "/app_og/static/media/latest News 5.44c2a54210474d223a99.jpg",
+    "static/media/testimonial doctor 9.jpg": "/app_og/static/media/testimonial doctor 9.9ca3a0422fec87cd6c98.jpg",
+    "static/media/booking mobile.png": "/app_og/static/media/booking mobile.f82d73222992d2101a09.png",
+    "static/media/about 2.jpg": "/app_og/static/media/about 2.0593bc2fd8a13cf8c19f.jpg",
+    "static/media/testimonial doctor 7.jpg": "/app_og/static/media/testimonial doctor 7.24eb182159ea2d58610f.jpg",
+    "static/media/contact us.jpg": "/app_og/static/media/contact us.ad1ed7ee8284087fe9ee.jpg",
+    "static/media/latest news1321.jpg": "/app_og/static/media/latest news1321.299a41762fa0858a67d3.jpg",
+    "static/media/about 3.jpg": "/app_og/static/media/about 3.fa689b1037dbf69567a3.jpg",
+    "static/media/land1.jpg": "/app_og/static/media/land1.c53c8971d16c9a1033ae.jpg",
+    "static/media/land2.png": "/app_og/static/media/land2.1112f1ac0dc18e511a91.png",
+    "static/media/testimonial doctor 4.jfif": "/app_og/static/media/testimonial doctor 4.3fce1e2ceaf3c448ca3c.jfif",
+    "static/media/testimonial doctor 3.jfif": "/app_og/static/media/testimonial doctor 3.8bd8e7509714483fa6cf.jfif",
+    "static/media/testimonial doctor 2.jfif": "/app_og/static/media/testimonial doctor 2.c1366f6acf2c1bc9ad53.jfif",
+    "static/media/testimonial doctor 6.jfif": "/app_og/static/media/testimonial doctor 6.26a819e1e5d6e2e7be59.jfif",
+    "static/media/testimonial doctor 1.jfif": "/app_og/static/media/testimonial doctor 1.ede18e16530df363bee6.jfif",
+    "static/media/testimonial doctor 5.jfif": "/app_og/static/media/testimonial doctor 5.751364a8ae13d2be0958.jfif",
+    "index.html": "/app_og/index.html",
+    "main.8995c689.css.map": "/app_og/static/css/main.8995c689.css.map",
+    "main.76b8e9fe.js.map": "/app_og/static/js/main.76b8e9fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8995c689.css",
+    "static/js/main.76b8e9fe.js"
+  ]
+}
