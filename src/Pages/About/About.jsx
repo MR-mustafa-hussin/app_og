@@ -23,8 +23,8 @@ const About = () => {
       <Feature />
     <div  className='about-container-cards'>
     <div className='title-card-doctor' >
-    <h5 className="small-title">Our Doctor</h5>
-    <h2 className="title">Meet Best Doctors</h2>
+    <h5 className="small-title">نبذة عن المطور</h5>
+    <h2 className="title">تفاصيل المطور</h2>
     </div>
     <div className='container'>
     <div className='row about-card'>

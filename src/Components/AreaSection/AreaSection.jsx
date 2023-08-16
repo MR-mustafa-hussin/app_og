@@ -16,39 +16,39 @@ const AreaSection = () => {
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card1">
               <h2>01</h2>
-              <h4 className="mb-10">Make Appointmnet</h4>
+              <h4 className="mb-10">مواقع تعريفية</h4>
               <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of.
               </p>
               <Link to="/Booking" className="btn">
-                View More <FontAwesomeIcon icon={faChevronRight} />
+                المزيد <FontAwesomeIcon icon={faChevronRight} />
               </Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="card2">
               <h2>02</h2>
-              <h4 className="mb-10">Take Treatment</h4>
+              <h4 className="mb-10">متاجر الكترونية</h4>
               <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of.
               </p>
               <Link to="/services" className="btn">
-                View More <FontAwesomeIcon icon={faChevronRight} />
+                المزيد <FontAwesomeIcon icon={faChevronRight} />
               </Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-sm-12 card3-container">
             <div className="card3">
               <h2>03</h2>
-              <h4 className="mb-10">Registration</h4>
+              <h4 className="mb-10">استضافات</h4>
               <p>
                 It is a long established fact that a reader will be distracted
                 by the readable content of.
               </p>
               <Link to="/contact" className="btn">
-                View More <FontAwesomeIcon icon={faChevronRight} />
+                المزيد <FontAwesomeIcon icon={faChevronRight} />
               </Link>
             </div>
             <img src={blueCircle} className="blueCircle"/>

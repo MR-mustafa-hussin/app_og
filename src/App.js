@@ -1,6 +1,7 @@
 import "./App.css";
 import {
   createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -24,7 +25,7 @@ import Search from "./Components/Search/Search";
 
 
 
-let BrowserRouter = createBrowserRouter(
+let BrowserRouter = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index path="/" element={<Home />} />

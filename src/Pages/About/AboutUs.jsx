@@ -9,12 +9,7 @@ import orangeSquare from "../../Assets/about square.png";
 import "./AboutUs.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import {
-  faBedPulse,
-  faDroplet,
-  faSyringe,
-  faTruckMedical,
-} from "@fortawesome/free-solid-svg-icons";
+import {faBedPulse,faDroplet,faSyringe,faTruckMedical,} from "@fortawesome/free-solid-svg-icons";
 const AboutUs = () => {
   return (
     <>
@@ -28,35 +23,36 @@ const AboutUs = () => {
                 <img src={img2} className="img2" />
                 <img src={img3} className="img3" />
                 <div className="experiance-box">
-                  20 <span>Year Experience</span>{" "}
+                  14 <span>الخبرات السنوية </span>{" "}
                 </div>
                 <img src={line} className="img-line" />
               </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 about-text">
               <img src={square} className="img-square2" />
-              <h6>About Us</h6>
-              <h2>The Great Place Of Medical Hospital Center</h2>
+              <h6>من نحن</h6>
+              <h2>شركة متخصصة فى التكنولوجيا الحديثة</h2>
               <p>
-                We provide the special tips and advice’s of heath care treatment
-                and high level of best technology involve in the our hospital.
+                نحن اوجى كودك شركة برمجيات متخصصة فى
+                تصميم مواقع تعريفية ومتاجر الكترونية واستضافات للشركات الاسترت اب 
+                او الشركات المتوسطة والكبيرة وادارة الصفحات التواصل الاجتماعى.
               </p>
               <div className="icons">
                 <span className="s1">
-                  <FontAwesomeIcon icon={faTruckMedical} /> Emergency Help
+                  <FontAwesomeIcon icon={faTruckMedical} /> تصميم المواقع
                 </span>
                 <span className="s2">
-                  <FontAwesomeIcon icon={faBedPulse} /> Qualified Doctors
+                  <FontAwesomeIcon icon={faBedPulse} />  الاستضافات والدومينات
                 </span>
                 <span className="s3">
-                  <FontAwesomeIcon icon={faDroplet} /> Best Professionals
+                  <FontAwesomeIcon icon={faDroplet} /> ادارة صفحات التواصل الاجتماعى
                 </span>
                 <span className="s4">
-                  <FontAwesomeIcon icon={faSyringe} /> Medical Treatment
+                  <FontAwesomeIcon icon={faSyringe} /> منصات تعليمية
                 </span>
               </div>
               <Link to="/aboutUs" className="btn">
-                Read More
+                المزيد
               </Link>
               <img src={circle} className="img-circle" />
               <img src={orangeSquare} className="orange-square" />

@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./SliderCardLatestNews.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -32,7 +31,7 @@ const SliderCardLatestNews = (props) => {
           </a>
         </h2>
         <button className="btn read-more-btn">
-          Read More
+          المزيد
           <span>
             <FontAwesomeIcon icon={faChevronRight} />
           </span>

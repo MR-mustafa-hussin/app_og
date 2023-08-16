@@ -1,6 +1,6 @@
 import React from "react";
 import "./Nav.css";
-import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import {  Nav, Navbar, NavDropdown } from "react-bootstrap";
 import logo from "../../Assets/logo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faPhone, faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -17,7 +17,7 @@ const Navbars = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Link  to="/" className='nav-link active'>الرئيسية</Link>
-            <NavDropdown title="اساسى" id="basic-nav-dropdown">
+            <NavDropdown title="صفحات هامة" id="basic-nav-dropdown">
               <Link to="/aboutUs" className='nav-link page dropdown-item'>من نحن</Link>
               <Link to="/ourTeam" className='nav-link page dropdown-item'>ادارة المشروعات</Link>
               <Link to="/faqs" className='nav-link page dropdown-item'>الاسئلة الشائعة</Link>
@@ -26,16 +26,13 @@ const Navbars = () => {
               <Link to="/login" className='nav-link page dropdown-item'>دخول / تسجيل</Link>
               
             </NavDropdown>
-            <NavDropdown title="خدمات" id="basic-nav-dropdown">
+              <NavDropdown title="خدمات" id="basic-nav-dropdown">
               <NavDropdown.Item href="/services">خدمتنا</NavDropdown.Item>
-              <NavDropdown.Item href="/servicesDetails">
-                تفاصيل خدمتنا
-              </NavDropdown.Item>
+              <NavDropdown.Item href="/servicesDetails">تفاصيل خدمتنا</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="مقالات" id="basic-nav-dropdown">
             <Link to="/blogs" className='nav-link'>مقالتنا</Link>
             <Link to="/blogDetails" className='nav-link'>تفاصيل المقالة</Link>
-            
             </NavDropdown>
             <Link to="/contact" className='nav-link'>تواصل معنا</Link>
             <Link to="/search" className='nav-link'><FontAwesomeIcon icon={faSearch}  /></Link>

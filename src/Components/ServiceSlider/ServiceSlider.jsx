@@ -10,16 +10,11 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-
 import squareLines from "../../Assets/Square Lines.png";
 import blueCircleLines from "../../Assets/blue circle lines.png";
 import serviceLine from "../../Assets/footer line.png";
-
 import "./ServiceSlider.css";
-/*
 
-
-*/
 const ServiceSlider = () => {
   let carouselRef = useRef();
   let [width, setWidth] = useState(0);
@@ -37,14 +32,13 @@ const ServiceSlider = () => {
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 text-left">
             <img src={blueCircleLines} className="blueCircleLines" />
 
-            <h5>Services</h5>
-            <h2>We Cover A Big Variety Of Medical Services</h2>
+            <h5>خدمات</h5>
+            <h2>نحن نقدم جميع الخدمات البرمجية والاستضافات والكود النظيف</h2>
             <p>
-              We provide the special tips and advice’s of heath care treatment
-              and high level of best.
+              نحن شركة اوجى كودك تقدم الخدمات الالكترونية من انشاء المواقع والمتاجر الالكترونية الحديثة وادارة الصفحات السوشيال الميديا والاعلانات الممؤلة.
             </p>
             <Link to="/services" className="btn btn-serve">
-              All Services
+              جميع الخدمات
             </Link>
           </div>
           <div className="col-xl-6 col-lg-8 col-md-6 col-sm-12 slider">

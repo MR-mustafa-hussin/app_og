@@ -17,7 +17,7 @@ const CardService = (props) => {
     </div>
     <h2>{props.title}</h2>
     <p>{props.desc}</p>
-    <Link to="/servicesDetails" className='btn btn-view'>View More</Link>
+    <Link to="/servicesDetails" className='btn btn-view'>المزيد</Link>
     </div>
   )
 }
